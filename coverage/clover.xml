@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1790269123941" clover="3.2.0">
-  <project timestamp="1790269123941" name="All files">
+<coverage generated="1790269634315" clover="3.2.0">
+  <project timestamp="1790269634315" name="All files">
     <metrics statements="178" coveredstatements="17" conditionals="83" coveredconditionals="4" methods="36" coveredmethods="4" elements="297" coveredelements="25" complexity="0" loc="178" ncloc="178" packages="3" files="9" classes="9"/>
     <package name="errors">
       <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
-      <file name="AppError.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\errors\AppError.js">
+      <file name="AppError.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\errors\AppError.js">
         <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -20,7 +20,7 @@
     </package>
     <package name="helpers">
       <metrics statements="27" coveredstatements="11" conditionals="30" coveredconditionals="4" methods="7" coveredmethods="2"/>
-      <file name="parseId.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\helpers\parseId.js">
+      <file name="parseId.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\helpers\parseId.js">
         <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -29,7 +29,7 @@
         <line num="9" count="0" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
-      <file name="validators.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\helpers\validators.js">
+      <file name="validators.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\helpers\validators.js">
         <metrics statements="21" coveredstatements="6" conditionals="28" coveredconditionals="3" methods="6" coveredmethods="1"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="8" count="0" type="stmt"/>
@@ -56,7 +56,7 @@
     </package>
     <package name="services">
       <metrics statements="141" coveredstatements="0" conditionals="51" coveredconditionals="0" methods="25" coveredmethods="0"/>
-      <file name="AuthService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\AuthService.js">
+      <file name="AuthService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\AuthService.js">
         <metrics statements="17" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -76,7 +76,7 @@
         <line num="36" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
       </file>
-      <file name="EmailService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\EmailService.js">
+      <file name="EmailService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\EmailService.js">
         <metrics statements="21" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -100,7 +100,7 @@
         <line num="48" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
       </file>
-      <file name="EventoService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\EventoService.js">
+      <file name="EventoService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\EventoService.js">
         <metrics statements="39" coveredstatements="0" conditionals="18" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -142,7 +142,7 @@
         <line num="104" count="0" type="stmt"/>
         <line num="107" count="0" type="stmt"/>
       </file>
-      <file name="InscricaoService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\InscricaoService.js">
+      <file name="InscricaoService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\InscricaoService.js">
         <metrics statements="26" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -171,7 +171,7 @@
         <line num="84" count="0" type="stmt"/>
         <line num="87" count="0" type="stmt"/>
       </file>
-      <file name="NotificacaoService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\NotificacaoService.js">
+      <file name="NotificacaoService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\NotificacaoService.js">
         <metrics statements="25" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -199,7 +199,7 @@
         <line num="101" count="0" type="stmt"/>
         <line num="110" count="0" type="stmt"/>
       </file>
-      <file name="ParticipanteService.js" path="D:\2 DEV\SENAI\TSOF\tsof-notificacoes\src\services\ParticipanteService.js">
+      <file name="ParticipanteService.js" path="C:\Users\NB10-2DEV\tsof-notificacoes\src\services\ParticipanteService.js">
         <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
