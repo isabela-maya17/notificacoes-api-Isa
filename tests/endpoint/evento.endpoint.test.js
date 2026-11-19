@@ -40,10 +40,19 @@ describe("POST /eventos (rota protegida)", () => {
     expect(resposta.body.erro.mensagem).toBe("Token não fornecido");
   });
 
-  // ============================================================
-  // SUA VEZ: complete o teste abaixo (Atividade 06, Parte 3).
-  // Apague o ".todo" da linha abaixo e troque por um teste completo:
-  //   it("responde 201 quando manda um token válido", async () => { ... });
-  // ============================================================
-  it.todo("responde 201 quando manda um token válido");
+  it("responde 201 quando manda um token válido", async () => {
+    // Arrange: pega um token (o helper faz cadastro + login) e monta o evento
+    const token = await obterToken();
+    const evento = { nome: "Semana de Tecnologia", data: "2026-11-20" };
+
+    // Act: POST /eventos COM o header Authorization
+    const resposta = await request(app)
+      .post("/eventos")
+      .set("Authorization", `Bearer ${token}`)
+      .send(evento);
+
+    // Assert: confiram o status e o nome do evento que voltou no JSON
+    expect(resposta.status).toBe(201);
+    expect(resposta.body.nome).toBe("Semana de Tecnologia");
+  });
 });
